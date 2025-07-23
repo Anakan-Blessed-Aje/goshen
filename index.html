@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goshen & Gold</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <nav>
+    <h2><span><img class="logo" src="img/logo.png"></span>Goshen & Gold</h2>
+    <div class="toggler" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+      <span></span><span></span><span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#academics">Academics</a></li>
+      <li><a href="#admissions">Admissions</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+      <h1>Welcome to Goshen & Gold Schools</h1>
+      <p>
+        Shaping Future Leaders Through Quality Education and Moral Values.
+      </p>
+      <a href="#admissions">Apply Now</a>
+    </div>
+  </header>
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>Founded in 2010, We nurture future leaders through academic excellence, moral discipline, and a drive for continuous improvement.</p>
+    <div class="team reveal">
+      <div class="team-member">
+        <img src="img/principal.jpg" alt="">
+        <h4>Mr. James Smith</h4><p>Principal</p>
+      </div>
+      <div class="team-member">
+        <img src="#" alt="">
+        <h4>Mrs. Laura King</h4><p>Vice Principal</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="academics" id="academics">
+    <h2>Academics</h2>
+    <p>We offer a rigorous curriculum fostering critical thinking, creativity, and leadership.</p>
+    <div class="programs reveal">
+      <div class="program"><h3>Primary Education</h3><p>Strong foundation in literacy, numeracy, and moral upbringing, preparing pupils for future excellence.</p></div>
+      <div class="program"><h3>Junior Secondary School</h3><p>Offering a comprehensive curriculum that blends academic excellence with character development.</p></div>
+      <div class="program"><h3>Senior Secondary School</h3>
+        <p>Approved in 2019, our Senior Secondary School prepares students for NECO and other national exams in a secure, accredited center.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="admissions" id="admissions">
+    <h2>Admissions</h2>
+    <p>Join our community of excellence, Apply now!</p>
+    <div class="countdown-box">
+      <h3>Admissions Closing In:</h3>
+      <div id="countdown">
+        <span><strong id="days">00</strong> Days</span>
+        <span><strong id="hours">00</strong> Hrs</span>
+        <span><strong id="minutes">00</strong> Min</span>
+        <span><strong id="seconds">00</strong> Sec</span>
+      </div>
+    </div>
+    <!-- <form action="https://formsubmit.co/anakamblessed@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="New Admissions Inquiry!">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="3" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit Inquiry</button>
+    </form>
+    <hr> -->
+    
+    <form action="https://remitademo.net/remita/exapp/api/v1/send/api/echannelsvc/merchant/api/paymentinit" method="POST">
+								  <h2>Registration Form</h2>
+								
+								  <label>Student Name:</label>
+								  <input type="text" name="student_name" required>
+								
+								  <label>Parent Name:</label>
+								  <input type="text" name="parent_name" required>
+								
+								  <label>Phone:</label>
+								  <input type="tel" name="phone" required>
+								
+								  <label>Class Applying For:</label>
+								  <select name="class" required>
+								    <option value="Primary 1">Primary 1</option>
+								    <option value="Primary 2">Primary 2</option>
+								    <option value="Primary 3">Primary 3</option>
+								    <option value="Primary 4">Primary 4</option>
+								    <option value="Primary 5">Primary 5</option>
+								    <option value="JSS 1">JSS 1</option>
+								    <option value="JSS 2">JSS 2</option>
+								    <option value="JSS 3">JSS 3</option>
+								    <option value="SS 1">SS 1</option>
+								    <option value="SS 2">SS 2</option>
+								    <option value="SS 3">JSS 3</option>
+								  </select>
+
+				  <label>Registration Fee:</label>
+				  <input type="text" value="5000" readonly>
+				
+				  <!-- Hidden Remita credentials -->
+				  <input type="hidden" name="merchantId" value="YOUR_MERCHANT_ID">
+				  <input type="hidden" name="serviceTypeId" value="YOUR_SERVICE_TYPE_ID">
+				  <input type="hidden" name="orderId" value="AUTO_GENERATED_ORDER_ID">
+				  <input type="hidden" name="responseurl" value="https://yourwebsite.com/payment-response">
+				
+				  <button type="submit">Pay with Remita</button>
+				</form>
+
+  </section>
+
+  <section class="gallery" id="gallery">
+    <h2>Our School in Pictures</h2>
+    <p>Take a glimpse into our vibrant classrooms, activities, and special events.</p>
+    <div class="gallery-grid">
+      <a href="img/classroom2.jpeg" target="_blank">
+        <img src="img/classroom2.jpeg" alt="Classroom">
+      </a>
+      <a href="img/classroom4.jpeg" target="_blank">
+        <img src="img/classroom4.jpeg" alt="Classroom">
+      </a>
+      <a href="img/students.jpg" target="_blank">
+        <img src="img/students.jpg" alt="Students">
+      </a>
+      <a href="img/students2.jpg" target="_blank">
+        <img src="img/students2.jpg" alt="Students">
+      </a>
+      <a href="img/library1 (1).jpg" target="_blank">
+        <img src="img/library1 (1).jpg" alt="Library">
+      </a>
+      <a href="img/library.jpg" target="_blank">
+        <img src="img/library.jpg" alt="Library">
+      </a>
+      <!-- <a href="img/event1.jpg" target="_blank">
+        <img src="img/event1.jpg" alt="Event">
+      </a> -->
+      <a href="img/event2.jpg" target="_blank">
+        <img src="img/event2.jpg" alt="Event">
+      </a>
+      <a href="img/event3.jpg" target="_blank">
+        <img src="img/event3.jpg" alt="Event">
+      </a>
+      <a href="img/event4.jpg" target="_blank">
+        <img src="img/event4.jpg" alt="Event">
+      </a>
+      <a href="img/lab2.jpg" target="_blank">
+        <img src="img/lab2.jpg" alt="Laboratory">
+      </a>
+      <a href="img/lab1.jpeg" target="_blank">
+        <img src="img/lab1.jpeg" alt="Laboratory">
+      </a>
+      
+      <a href="img/sport1.jpg" target="_blank">
+        <img src="img/sport1.jpg" alt="Sports">
+      </a>
+      <a href="img/sport2.jpg" target="_blank">
+        <img src="img/sport2.jpg" alt="Sports">
+      </a>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <h2>What Parents Say</h2>
+    <div class="testimonial-cards reveal">
+      <div class="testimonial">
+        <img src="#" alt="">
+        <p>This school has transformed my child's learning experience. Excellent teachers!</p>
+        <h4>- Mrs. Janet Paul</h4>
+      </div>
+      <div class="testimonial">
+        <img src="#" alt="">
+        <p>Best decision we ever made. Great academics and values!</p>
+        <h4>- Mr. Daniel Cole</h4>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you, Get in touch today!</p>
+    <form action="https://formsubmit.co/YOUR-EMAIL@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="New Contact Message!">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.2143163503795!2d5.178903174994781!3d5.565727433021412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10430f9a1c32cf8f%3A0xa3d78fb063588ce!2sGoshen%20International%20School!5e0!3m2!1sen!2sng!4v1721056201234!5m2!1sen!2sng" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Goshen & Gold Schools. All rights reserved.
+  </footer>
+
+  <!-- Sticky Contact Buttons -->
+  <div class="sticky-contact">
+    <a href="https://wa.me/2348069534829" target="_blank" class="whatsapp">💬 Chat</a>
+    <a href="tel:+2348069534829" class="call">📞 Call</a>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
+
